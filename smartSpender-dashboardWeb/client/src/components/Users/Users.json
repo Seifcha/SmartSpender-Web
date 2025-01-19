@@ -1,0 +1,42 @@
+[
+    {
+      "IdUser": 1,
+      "nom": "Doe",
+      "prenom": "John",
+      "createdAt": "2024-03-20T08:00:00Z",
+      "updatedAt": "2024-03-20T08:30:00Z",
+      "deleted": false,
+      "deletedAt": null,
+      "actif": true,
+      "valide": true,
+      "email": "john.doe@example.com",
+      "phone": "123456789"
+    },
+    {
+      "IdUser": 2,
+      "nom": "Smith",
+      "prenom": "Jane",
+      "createdAt": "2024-03-21T09:00:00Z",
+      "updatedAt": "2024-03-21T09:30:00Z",
+      "deleted": false,
+      "deletedAt": null,
+      "actif": true,
+      "valide": true,
+      "email": "jane.smith@example.com",
+      "phone": "987654321"
+    },
+    {
+      "IdUser": 3,
+      "nom": "Johnson",
+      "prenom": "Alice",
+      "createdAt": "2024-03-22T10:00:00Z",
+      "updatedAt": "2024-03-22T10:30:00Z",
+      "deleted": false,
+      "deletedAt": null,
+      "actif": true,
+      "valide": true,
+      "email": "alice.johnson@example.com",
+      "phone": "456789123"
+    }
+  ]
+  

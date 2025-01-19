@@ -1,0 +1,59 @@
+.signin-section {
+  margin: 15vh auto; /* Centrer le formulaire verticalement */
+  width: 80%; /* Largeur du formulaire */
+  max-width: 400px; /* Largeur maximale du formulaire */
+  padding: 20px; /* Espacement interne */
+  background-color: #f9f9f9; /* Couleur de fond */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  font-family: 'Roboto', sans-serif;
+}
+
+.errmsg {
+  color: #e74c3c; /* Couleur du message d'erreur */
+  margin-bottom: 10px; /* Espacement sous le message d'erreur */
+}
+
+.instructions {
+  margin-top: 5px; /* Espacement au-dessus des instructions */
+}
+
+.instructions.valid {
+  color: #27ae60; /* Couleur des instructions valides */
+}
+
+.instructions.invalid {
+  color: #e74c3c; /* Couleur des instructions invalides */
+}
+
+.form-label {
+  font-weight: bold; /* Texte en gras pour les labels */
+}
+
+.form-control {
+  margin-bottom: 20px; /* Espacement sous les champs de saisie */
+}
+
+button {
+  background-color: #3498db; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none; /* Supprimer la bordure */
+  padding: 10px 20px; /* Espacement interne */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointer au survol */
+  font-size: 16px; /* Taille de la police */
+  transition: background-color 0.3s ease; /* Animation au survol */
+  width: 100%; /* Remplir la largeur du conteneur */
+}
+
+button:hover {
+  background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+}
+
+p {
+  margin-bottom: 10px; /* Espacement entre les paragraphes */
+}
+
+.btn-primary {
+  margin-top: 20px; /* Espacement au-dessus du bouton de connexion */
+}

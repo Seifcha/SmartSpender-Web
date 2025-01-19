@@ -1,0 +1,80 @@
+/* Déclaration des variables */
+:root {
+  --primary-color: #646cff;
+  --secondary-color: #61dafb;
+}
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--primary-color) aa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em var(--secondary-color) aa);
+}
+
+/* Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation pour le logo */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Carte */
+.card {
+  padding: 2em;
+}
+
+/* Lien vers la documentation */
+.read-the-docs {
+  color: #888;
+}
+
+/* Pour rendre le contenu responsive */
+@media screen and (max-width: 768px) {
+  /* Conteneur principal */
+  #root {
+    padding: 1rem; /* Ajustement de la marge pour les appareils plus petits */
+  }
+
+  /* Logo */
+  .logo {
+    height: 4em; /* Réduire la taille du logo pour les appareils plus petits */
+    padding: 1em;
+  }
+
+  /* Carte */
+  .card {
+    padding: 1em; /* Ajustement de l'espacement pour les appareils plus petits */
+  }
+}

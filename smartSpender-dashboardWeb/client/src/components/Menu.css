@@ -1,0 +1,34 @@
+.Navbar {
+  display: flex;
+  padding: 10px;
+}
+
+/* Styles pour le contenu du Drawer */
+.MuiDrawer-root {
+  width: 250px; /* Largeur du Drawer */
+}
+
+/* Styles pour les liens dans le Drawer */
+.MuiDrawer-paper ul.components {
+  list-style: none;
+  padding: 0;
+}
+
+.MuiDrawer-paper ul.components li {
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.MuiDrawer-paper ul.components li a {
+  display: block;
+  padding: 10px;
+  color: #000; /* Couleur du texte dans le Drawer */
+  text-decoration: none;
+}
+
+.MuiDrawer-paper ul.components li:hover {
+  background-color: #f0f0f0; /* Couleur de fond au survol */
+}
+.Navbar {
+  color: #343a40; /* Nouvelle couleur de fond de la Navbar */
+}

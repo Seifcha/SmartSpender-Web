@@ -1,0 +1,38 @@
+/* Wrapper pour contenir à la fois le sidebar et le contenu principal */
+.wrapper {
+  display: flex;
+  align-items: stretch; /* Ajuster la hauteur des éléments pour les étirer */
+}
+
+/* Styles pour le sidebar */
+
+/* Styles pour le contenu principal */
+/* Styles pour le contenu principal */
+#table-button {
+  background-color: #f9f9f9; /* Couleur de fond du contenu principal */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow-x: auto; /* Ajout de défilement horizontal si nécessaire */
+  width: 100%; /* Utilise toute la largeur disponible */
+}
+
+/* Contenu principal */
+#contentt {
+  padding: 20px;
+  overflow-x: auto; /* Ajout de défilement horizontal si nécessaire */
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  max-height: 700px;
+}
+
+/* Pour que le tableau occupe toute la largeur */
+.table {
+  width: 100%; /* Utilise toute la largeur disponible */
+}
+
+.ajouter {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
